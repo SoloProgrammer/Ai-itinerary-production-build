@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cors());
 
-app.listen(port, () => console.log(`Quiz-App is running on server...${port} `));
+app.listen(port, () => console.log(`Ai-itinerary is running on server...${port} `));
 
 // Deployment Setup!
 const path = require('path')
